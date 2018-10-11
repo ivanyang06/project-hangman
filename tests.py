@@ -6,6 +6,8 @@ def test_get_secret_word():
     assert len(words) >= 5, "Should contain a list of at least 5 words."
     
     # do the following:
+    for i in words:
+        print(type(i) --> <class 'str'>
     assert what secret word returns is a string, "Should return a string"
 
 
